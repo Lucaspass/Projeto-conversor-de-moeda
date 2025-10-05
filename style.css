@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body{
+    background-color: #3a0328;
+}
+
+header > img#titulo{
+    display: block;
+    width: 380px;
+    height: 175px;
+    margin: auto;  
+    border-radius: 20px 20px 0 0;  
+}
+
+main{
+    background-color: white;
+    width: 380px;
+    height: 480px;
+    margin: auto;
+    border-radius: 0 0 20px 20px;
+    text-align: center;
+
+}
+
+label{
+    font-family: cursive;
+    font-size: 13.3px;
+    font-weight: bolder;
+    display: block;
+    padding: 5px
+
+    
+}
+
+select#select1{ 
+    width: 270px;
+    height: 25px;
+}
+
+
+select#select2{
+    width: 270px;
+    height: 25px;
+    
+}
+
+input#valor{    
+    width: 270px;
+    height: 25px;
+}
+
+input#converter{
+    width: 240px;
+    height: 25px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(5, 5, 130);
+    color: white;
+    margin: 8px;
+    margin-bottom: 9px;
+    cursor: pointer;
+}
+
+section{
+    border: 2px solid black;
+    width: 80%;
+    margin: auto;
+    padding: 1px;
+    border-radius: 8px;
+
+}
+
+
+img.section{
+    width: 60px;
+    margin: 3px;
+}
+
+img.seta{
+    width: 40px;
+    margin-top: 8px;
+
+}
+
+section p {
+    font-size: 13px;
+}

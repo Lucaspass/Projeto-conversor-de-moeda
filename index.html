@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de moedas</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <header> <img id="titulo" src="imagens/moeda.jpg" alt="moeda"></header>
+
+    <main>
+        <div id="EscolhaMoeda">
+            <p><label for="selectl"> Converter de</label></p>
+
+            <select name="select1" id="select1">
+                <option value="real"> R$  Real Brasileiro</option>
+                <option value="dolar"> US$  Dolar Americano</option>
+                <option value="euro"> U€ Euro Inglês</option>
+            </select>
+          
+
+            <p><label for="select2"> Converter para</label></p>
+            <select name="select2" id="select2">
+                <option value="dolar">
+                    US$  Dolar Americano
+                </option>
+                <option value="real"> R$  Real Brasileiro</option>
+                <option value="euro"> € Euro Inglês</option>
+            </select>
+
+            <p><label for="valor"> Valor</label></p>
+            <input type="number" name="valor" id="valor" placeholder="R$ 10.000,00">
+
+            <p><input type="button" value="Converter" id="converter"></p>
+        </div>
+
+        <section id="resultado">
+            <div> <img id="resimg1" class="section" src="imagens/moedabrasil.jpg" alt="brasil"> 
+            <p id="resp1">Real</p>
+            <p id="res1">R$ 0,00</p>
+        </div>
+
+        <img src="imagens/6635104.png" class="seta" alt="seta">
+
+
+
+        <div> <img id="resimg2" class="section" src="imagens/moedaeua.png" alt="eua">
+        <p id="resp2">US$</p>
+        <p id="res2">R$ 0,00</p> 
+        </div>
+        </section>
+    </main>
+    
+</body>
+   <script src="script.js"></script>
+
+</html>
