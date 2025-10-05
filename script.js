@@ -20,6 +20,9 @@ function convertValues(){
                
         res1.innerHTML = inputValor.toLocaleString('pt-BR', { style:'currency', currency: 'BRL' })
 
+        resimg2.src = "./imagens/moedaeua.png"
+        resp2.innerHTML = "Dolar"
+
         res2.innerHTML = (inputValor/ dolarToday).toLocaleString('en-US', {style: 'currency' , currency: 'USD'})}
 
     else if(select1.value === "real" && select2.value === "euro"){
