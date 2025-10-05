@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: cursive;
+    font-family:Arial, Helvetica, sans-serif
 }
 
 body{
@@ -30,8 +30,7 @@ main{
 }
 
 label{
-    font-family: cursive;
-    font-size: 13.3px;
+    font-size: 16px;
     font-weight: bolder;
     display: block;
     padding: 5px
@@ -39,21 +38,16 @@ label{
     
 }
 
-select#select1{ 
+select#select1, select#select2{ 
     width: 270px;
     height: 25px;
-}
-
-
-select#select2{
-    width: 270px;
-    height: 25px;
-    
+    font-size: 15x;
 }
 
 input#valor{    
     width: 270px;
     height: 25px;
+    font-size: 15px;
 }
 
 input#converter{
@@ -91,4 +85,13 @@ img.seta{
 
 section p {
     font-size: 13px;
+}
+
+option{
+    color: black;
+}
+
+#resp2, #resp1, #res1, #res2{
+    font-weight: bold;
+    font-size: 15px;
 }
