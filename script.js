@@ -17,6 +17,10 @@ function convertValues(){
     let euroToday = 6.27
 
     if(select1.value === "real" && select2.value === "dolar"){
+
+        resimg1.src = "./imagens/moedabrasil.jpg"
+        resp1.innerHTML = "Real"
+
                
         res1.innerHTML = inputValor.toLocaleString('pt-BR', { style:'currency', currency: 'BRL' })
 
@@ -27,6 +31,9 @@ function convertValues(){
 
     else if(select1.value === "real" && select2.value === "euro"){
 
+        resimg1.src = "./imagens/moedabrasil.jpg"
+        resp1.innerHTML = "Real"
+
         res1.innerHTML = inputValor.toLocaleString('pt-BR', { style:'currency', currency: 'BRL' })
 
         resimg2.src = "./imagens/moedainglaterra.png"
@@ -36,6 +43,9 @@ function convertValues(){
     }
 
     else if(select1.value === "real" && select2.value === "real"){
+
+        resimg1.src = "./imagens/moedabrasil.jpg"
+        resp1.innerHTML = "Real"
 
         res1.innerHTML = inputValor.toLocaleString('pt-BR', { style:'currency', currency: 'BRL' })
 

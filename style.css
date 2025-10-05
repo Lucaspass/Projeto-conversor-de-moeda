@@ -14,7 +14,7 @@ body{
 header > img#titulo{
     display: block;
     width: 380px;
-    height: 175px;
+    height: 145px;
     margin: auto;  
     border-radius: 20px 20px 0 0;  
 }
@@ -22,7 +22,7 @@ header > img#titulo{
 main{
     background-color: white;
     width: 380px;
-    height: 500px;
+    height: 78vh;
     margin: auto;
     border-radius: 0 0 20px 20px;
     text-align: center;
